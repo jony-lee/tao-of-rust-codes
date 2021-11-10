@@ -57,7 +57,7 @@ pub fn ownership() {
     let place1 = "hello";
     let place2 = "hello".to_string();
     let other = place1;
-    println!("{:?}", other);
+    println!("{:?}", place1);
     let other = place2;
     println!("{:?}", place2); // place2 value used here after move
 }
